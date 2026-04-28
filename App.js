@@ -40,7 +40,6 @@ export default function App() {
           onChangeText={setNome}
         />
 
-        {/* Exibição do erro */}
         {erro && <Text style={styles.erro}>{erro}</Text>}
       </View>
 
